@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GRUPO NUMERO SIETE ETIQUETAS HTML </title>
+</head>
+<body  bgcolor="#0066FF">
+<center><h1> <b>INTEGRANTES GRUPO NUMERO 7</b></h1></center>
+<hr>
+<center> <b><strong>TEAM ROLOS+1</strong></b></center>
+<li align=left><strong>NOMBRES</strong></align><li align=center><strong>SOBRE NOMBRES</strong></align>
+<li align=left>Stefanny Carolina</align><li align=center>Stefanny</align>
+<li align=left> <b>Andrea</b> Aldana</align><li align=center>Andrea</align>
+<li align=left>Miguel Anguel</align><li align=center>Miguel</align>
+<li align=left>Diego Armando Castañeda</align><li align=center>Diego</align>
+<li align=left><b>Francesco</b> Fernandez Torres</align><li align=center>Fran</align>
+</body>
+</html>  
