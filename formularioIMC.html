@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Equipo 7</title>
+    </head>
+    <body>
+        <h3>Calculadora de Índice de Masa Corporal</h3>
+        <br>
+        <br>
+        <form>
+            <table>
+                <tr>
+                    <td>Identificación:</td>
+                    <td><input id="dni" type="text" ></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Nombre completo:</td>
+                    <td colspan="3">
+                        <input id="nombre" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Genero:</td>
+                    <td>
+                        <input id="mujer" name="Género" type="radio">
+                        <label for="mujer">Mujer</label>
+                    </td>
+                    <td>
+                        <input id="hombre" name="Género" type="radio">
+                        <label for="hombre">Hombre</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2" align="center">Rol</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="estudiante" name="rol" type="radio">
+                        <label for="estudiante">Estudiante</label>
+                    </td>
+                    <td>
+                        <input id="egresado" name="rol" type="radio">
+                        <label for="egresado">Egresado</label>
+                    </td>
+                    <td>
+                        <input id="docete" name="rol" type="radio">
+                        <label for="docente">Docente</label>
+                    </td>
+                    <td>
+                        <input id="administrativo" name="rol" type="radio">
+                        <label for="administrativo">administrativo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Correo electrónico:</td>
+                    <td colspan="2">
+                        <input id="correo" type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fecha cálculo:</td>
+                    <td colspan="2">
+                        <input id="fechaConsulta" type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" > Ingrese los siguientes valores:</td>
+                </tr>
+                <tr>
+                    <td>Peso (Kg)</td>
+                    <td><input id="peso" type="text"></td>
+                    <td>Estatura (mts)</td>
+                    <td><input id="estatura" type="text"></td>
+                </tr>
+                <tr>
+                    <td>IMC</td>
+                    <td><input id="imc" type="text"></td>
+                    <td><input type="submit" value="CALCULAR"></td>
+                    <td><input type="reset" value="Limpiar"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">RECOMENDACIONES</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <textarea name="recomendaciones" rows="5" cols="80"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
