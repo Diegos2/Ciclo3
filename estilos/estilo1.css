@@ -1,0 +1,25 @@
+.encabezado{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.central{
+    width: 100%;
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+.columna{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.columna2{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.pie{
+    width: 100%;
+    border: 1px solid #ccc;
+}
