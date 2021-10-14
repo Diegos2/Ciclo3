@@ -3,18 +3,23 @@ google.charts.setOnLoadCallback(grafica);
 
 function cargaData(){
     var data = google.visualization.arrayToDataTable([
-        ['Año', '% Población'],
-        ['2006',  45.9],
-        ['2010',  51.2],
-        ['2015',  56.4]
+        ['IMC', 'Porcentaje'],
+        ['Delgado', 12.5],
+        ['Normal', 38.3],
+        ['Sobrepeso', 25.4],
+        ['Obesidad', 23.8]
       ]);
       return data;
 }
 
 function grafica(){
-    let data = cargaData();
-    var chart = new google.visualization.LineChart(document.getElementById('grafico'));
-    var options = {title:'Evolución sobre peso en población colombiana', curveType: 'function',
-    legend: { position: 'bottom'}};
-    chart.draw(data, options);
+    var data = cargaData();
+
+    var opciones = {
+      pieHole: 0.4,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('grafico'));
+    chart.draw(data, opciones);
+
 }

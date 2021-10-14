@@ -1,8 +1,9 @@
 #titulos{
     text-align: center;
 }
-.row{  
-}
-#fuente{
-    text-align: right;
+
+#grafico{
+    width: 70%;
+    height: 400px;
+    align-content: space-between;
 }
